@@ -7,6 +7,14 @@ const createCheckoutSession = require('./api/checkout');
 const app =express();
 const port = 8080;
 
+app.use(function (req, res, next) {
+    res.setHeader(
+      'Content-Security-Policy',
+      "default-src 'self'; font-src 'self'; img-src 'self'; script-src 'self'; style-src 'self'; frame-src 'self'"
+    );
+    next();
+  });
+
 app.use(express.json({
     verify: ( req, res, buffer) => req['rawbody'] = buffer   
 }));
