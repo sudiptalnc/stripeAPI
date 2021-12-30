@@ -3,8 +3,9 @@ const cors = require ('cors');
 require('dotenv').config({ path : './.env'});
 
 const createCheckoutSession = require('./api/checkout');
+const webhook = require('./api/webhook');
 
-const app =express();
+const app = express();
 const port = 8080;
 
 app.use(function (req, res, next) {
@@ -24,5 +25,8 @@ app.use(cors({ origin : true }));
 app.get('/', (req, res) => res.send('hello'));
 
 app.post('/create-checkout-session', createCheckoutSession);
+
+//webhook
+app.post('/webhook', webhook)
 
 app.listen(port, ()=> console.log('server listening on port',port))
