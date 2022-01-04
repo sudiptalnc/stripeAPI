@@ -1,1 +1,111 @@
-[{"id":1,"courseId":"2URS2022","title":" ","vanue":{"name":"Nova Southeastern University","address":" (PB Gardens Campus) 11501 North Military Trail, Palm Beach Gardens, FL 33410"},"sessions":{"number":1,"hour":4},"inPersonDay":"Tuesday","onlineDay":"Wednesday","additionalText":"This course consists of two 3-hour sessions.","objective":"","objectives":[],"registrationLastDate":"12/31/2021","courseStartDate":"01/01/2022","courseEndDate":"01/10/2022","courseFee":48,"imgurl":"","additionalContentFee":1200},{"id":2,"courseId":"3URS2022","title":" ","vanue":{"name":"Nova Southeastern University","address":" (PB Gardens Campus) 11501 North Military Trail, Palm Beach Gardens, FL 33410"},"sessions":{"number":3,"hour":2},"inPersonDay":"Tuesday","onlineDay":"Wednesday","additionalText":"This course consists of two 3-hour sessions.","objective":"","objectives":[],"registrationLastDate":"01/10/2022","courseStartDate":"01/20/2022","courseEndDate":"02/02/2022","courseFee":45,"imgurl":"","additionalContentFee":1200},{"id":3,"courseId":"4URS2022","title":" ","vanue":{"name":"Nova Southeastern University","address":" (PB Gardens Campus) 11501 North Military Trail, Palm Beach Gardens, FL 33410"},"sessions":{"number":2,"hour":3},"inPersonDay":"Tuesday","onlineDay":"Wednesday","additionalText":"This course consists of two 3-hour sessions.","objective":"","objectives":[],"registrationLastDate":"01/10/2021","courseStartDate":"01/20/2021","courseEndDate":"02/02/2021","courseFee":50,"imgurl":"","additionalContentFee":1200}]
+[
+    {
+        "id":1,
+        "courseId":"2URS2022",
+        "title":" ",
+        "vanue":{
+            "name":"Nova Southeastern University",
+            "address":" (PB Gardens Campus) 11501 North Military Trail, Palm Beach Gardens, FL 33410"
+        },
+        "sessions":{
+            "number":1,
+            "hour":4
+        },
+        "inPersonDay":"Tuesday",
+        "onlineDay":"Wednesday",
+        "additionalText":"This course consists of two 3-hour sessions.",
+        "objective":"",
+        "objectives":[
+            
+        ],
+        "registrationLastDate":"12/31/2021",
+        "courseStartDate":"01/01/2022",
+        "courseEndDate":"01/10/2022",
+        "courseFee":48,
+        "imgurl":"",
+        "priceDataUrl":"",
+        "additionalContentFee":1200
+    },
+    {
+        "id":2,
+        "courseId":"3URS2022",
+        "title":" ",
+        "vanue":{
+            "name":"Nova Southeastern University",
+            "address":" (PB Gardens Campus) 11501 North Military Trail, Palm Beach Gardens, FL 33410"
+        },
+        "sessions":{
+            "number":3,
+            "hour":2
+        },
+        "inPersonDay":"Tuesday",
+        "onlineDay":"Wednesday",
+        "additionalText":"This course consists of two 3-hour sessions.",
+        "objective":"",
+        "objectives":[
+            
+        ],
+        "registrationLastDate":"01/10/2022",
+        "courseStartDate":"01/20/2022",
+        "courseEndDate":"02/02/2022",
+        "courseFee":45,
+        "imgurl":"",
+        "priceDataUrl":"",
+        "priceId":"price_1I6yyqB0OAXrDwg3xIn2MvTU",
+        "additionalContentFee":1200
+    },
+    {
+        "id":4,
+        "courseId":"1URS2022",
+        "title":" ",
+        "vanue":{
+            "name":"Nova Southeastern University",
+            "address":" (PB Gardens Campus) 11501 North Military Trail, Palm Beach Gardens, FL 33410"
+        },
+        "sessions":{
+            "number":3,
+            "hour":2
+        },
+        "inPersonDay":"Tuesday",
+        "onlineDay":"Wednesday",
+        "additionalText":"This course consists of two 3-hour sessions.",
+        "objective":"",
+        "objectives":[
+            
+        ],
+        "registrationLastDate":"01/10/2022",
+        "courseStartDate":"01/20/2022",
+        "courseEndDate":"02/02/2022",
+        "courseFee":45,
+        "imgurl":"",
+        "priceDataUrl":"",
+        "priceId":"price_1I6yyqB0OAXrDwg3xIn2MvTU",
+        "additionalContentFee":1200
+    },
+    {
+        "id":3,
+        "courseId":"4URS2022",
+        "title":" ",
+        "vanue":{
+            "name":"Nova Southeastern University",
+            "address":" (PB Gardens Campus) 11501 North Military Trail, Palm Beach Gardens, FL 33410"
+        },
+        "sessions":{
+            "number":2,
+            "hour":3
+        },
+        "inPersonDay":"Tuesday",
+        "onlineDay":"Wednesday",
+        "additionalText":"This course consists of two 3-hour sessions.",
+        "objective":"",
+        "objectives":[
+            
+        ],
+        "registrationLastDate":"01/10/2021",
+        "courseStartDate":"01/20/2021",
+        "courseEndDate":"02/02/2021",
+        "courseFee":50,
+        "imgurl":"",
+        "additionalContentFee":1200
+    }
+	]

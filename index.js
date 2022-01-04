@@ -76,18 +76,18 @@ app.get('/:id', function (req, res) {
   // First retrieve existing course list
   fs.readFile( __dirname + "/courses/" + "courses.json", 'utf8', function (err, data) {
      const datas = JSON.parse( data );
-     const course = datas[req.params.id.split(':')[1]-1] 
+     const course = datas[req.params.id.split(':')[1]] 
      res.end( JSON.stringify(course));
   });
 })
 
  //Code to delete a course by id
- app.delete('/:id', function (req, res) {
+ app.delete('/deleteCourse:id', function (req, res) {
     // First retrieve existing courses
     fs.readFile( __dirname + "/courses/" + "courses.json", 'utf8', function (err, data) {
        const datas = JSON.parse( data );
 
-       const index = req.params.id.split(':')[1]-1;
+       const index = req.params.id.split(':')[1];
         if (index > -1) {
           datas.splice(index, 1);
         }
